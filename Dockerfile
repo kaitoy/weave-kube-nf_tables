@@ -1,4 +1,4 @@
-FROM weaveworks/weave-kube:2.5.2 AS weave
+FROM weaveworks/weave-kube:2.6.0 AS weave
 
 RUN cp /home/weave/weave /tmp/ \
     && \
